@@ -16,34 +16,3 @@ Site pessoal para expor meus trabalhos e contar um pouco sobre mim.
 * Design 🟧
 * Desenvolvimento 🟥
 * Debug | Publicação 🟥
-
-## Design
-
-### Conteudo
-
-* Sobre Mim
-* Projetos
-* Contate-me
-
-### Recursos
-
-* Animações
-* Formulário de e-mail
-* Modo claro e escuro
-* Botão de retorno ao início da página
-
-### Modo Claro:
-
-* Principal: `#deddda`
-* Secundária: `#1b1817`
-* Highlight: `#29414d`
-
-### Modo Escuro:
-
-* Principal: `#1b1716`
-* Secundária: `#fcf5e5`
-* Highlight: `#29414d`
-
-## Desenvolvimento
-
-## Debug | Publicação
