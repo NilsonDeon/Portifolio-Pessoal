@@ -9,7 +9,7 @@ Site pessoal para expor meus trabalhos e contar um pouco sobre mim.
 
 ## Ferramentas e Sites
 
-<a href="https://huemint.com/">Huemint - Gerador de paleta de cores</a>
+[Gerador de paleta de cores](https://huemint.com/)
 
 # Progresso
 <!-- 🟥 🟧 🟩 -->
