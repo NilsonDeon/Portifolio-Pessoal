@@ -44,3 +44,7 @@
 
 * [Type animation](https://www.codesdope.com/blog/article/12-creative-css-and-javascript-text-typing-animati/)
 * ...
+
+## Wireframe
+
+[Wireframe](https://wireframe.cc/Ov2a4C)
