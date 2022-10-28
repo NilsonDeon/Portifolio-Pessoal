@@ -13,6 +13,6 @@ Site pessoal para expor meus trabalhos e contar um pouco sobre mim.
 
 # Progresso
 <!-- 🟥 🟧 🟩 -->
-* ![Design](Design.md) 🟧
-* ![Desenvolvimento](Desenvolvimento.md) 🟥
+* ![Design](Design.md) 🟩
+* ![Desenvolvimento](Desenvolvimento.md) 🟧
 * Debug | Publicação 🟥

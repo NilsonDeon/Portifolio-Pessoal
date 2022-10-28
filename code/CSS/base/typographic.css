@@ -1,0 +1,26 @@
+
+h1 {
+    font-size: 4.4rem;
+    font-family: var(--titles-font);
+}
+
+h2 {
+    font-size: 2.6rem;
+    font-family: var(--titles-font);
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-family: var(--titles-font);
+}
+
+p {
+    font-size: 1.3rem;
+    letter-spacing: 0.02rem;
+    font-family: var(--text-font);
+    
+}
+
+a {
+    font-family: var(--text-font);
+}
