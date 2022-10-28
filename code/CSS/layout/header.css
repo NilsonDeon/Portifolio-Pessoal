@@ -8,7 +8,7 @@ header{
     max-height: 133px;
 }
 
-header h1{
+#title-header{
     font-size: 1.8rem;
     color: var(--lm-principal-color);
     cursor: default;
@@ -37,12 +37,12 @@ header h1{
 }
 
 #nav-header a:hover{
-    color: white;
+    color: var(--lm-highlight-color);
     transform: translate(-10px);
     transform: scale(1.3,1.3);
 }
 
-header button{
+#btn-cv{
     background-color: var(--lm-principal-color);
     border: none;
     border-radius: 15px;
@@ -52,12 +52,12 @@ header button{
     transition: transform 0.1s, box-shadow 0.1s;
 }
 
-header button:hover{
+#btn-cv:hover{
     box-shadow: 5px 3px #acaba8;
     transform: translate(-5px, -3px);
 }
 
-header button:active{
+#btn-cv:active{
     box-shadow: none;
     transform: translate(+5px, +3px);
     transform: scale(1);

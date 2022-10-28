@@ -24,12 +24,12 @@
 **Modo Claro**
 * Principal: `#deddda`
 * Secundária: `#1b1817`
-* Highlight: `#29414d`
+* Highlight: `#c80039`
 
 **Modo Escuro**
 * Principal: `#1b1716`
-* Secundária: `#fcf5e5`
-* Highlight: `#29414d`
+* Secundária: `#deddda`
+* Highlight: `#c80039`
 
 ## Fonte
 

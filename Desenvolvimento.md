@@ -7,10 +7,10 @@
 * Button 🟧
 
 ## Sobre
-* h1 🟥
-* h1 animation 🟥
+* h2 🟩
+* h2 animation 🟩
 * texto 🟥
-* imagem 🟥
+* imagem 🟧
 
 ## Skills
 * cards 🟥
@@ -28,3 +28,7 @@
 * Envio do Formulário 🟥
 * links redes sociais 🟥
 * Animação dos Links 🟥
+
+## Adicionais
+* Dark Mode 🟥
+* Responsividade 🟥
