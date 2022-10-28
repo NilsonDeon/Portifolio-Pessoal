@@ -11,7 +11,7 @@ Site pessoal para expor meus trabalhos e contar um pouco sobre mim.
 
 [Gerador de paleta de cores](https://huemint.com/)
 <br>
-
+[Wireframe](https://www.figma.com/)
 
 # Progresso
 <!-- 🟥 🟧 🟩 -->
