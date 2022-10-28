@@ -45,6 +45,6 @@
 * [Type animation](https://www.codesdope.com/blog/article/12-creative-css-and-javascript-text-typing-animati/)
 * ...
 
-## Wireframe
+## Protótipo
 
-[Wireframe](https://wireframe.cc/Ov2a4C)
+[Protótipo]([https://wireframe.cc/Ov2a4C](https://www.figma.com/file/vGprajlKSEGLxGsvtbcTRR/Site-pesoal?node-id=0%3A1))
