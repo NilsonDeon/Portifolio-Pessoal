@@ -1,5 +1,9 @@
 # Desenvolvimento
 
+**Lembrar:**
+* aspect-ratio: // para manter a proporção do tamanho
+
+
 ## Header 
 * Logo 🟩
 * Nav 🟩
