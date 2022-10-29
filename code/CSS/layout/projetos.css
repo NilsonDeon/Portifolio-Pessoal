@@ -1,0 +1,32 @@
+#projetos{
+    padding: 50px 60px;
+}
+
+#carousel{
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-cards{
+
+    margin: 100px 0;
+
+    background-image: url("https://cdn.pixabay.com/photo/2014/12/30/13/44/programming-583923_960_720.jpg");
+
+    min-width: 250px;
+    max-height: 450px;
+    padding: 150px 20px;
+    border-radius: 20px 0;
+
+    cursor: pointer;
+}
+
+.setas{
+
+    font-size: 3em;
+    cursor: pointer;
+    padding: 250px 0;
+
+    color: var(--lm-highlight-color);
+
+}

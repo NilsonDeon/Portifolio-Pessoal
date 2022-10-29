@@ -13,13 +13,13 @@
 * imagem 🟧
 
 ## Skills
-* cards 🟥
+* cards 🟧
 * card content 🟥
 * card animation 🟥
 
 ## Projetos
-* cards 🟥
-* carrousel  🟥
+* cards 🟧
+* carrousel  🟧
 * descrição breve 🟥
 * pagina com descrição mais detalhada 🟥
 
