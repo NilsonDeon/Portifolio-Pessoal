@@ -2,12 +2,6 @@
     padding: 50px 60px;
 }
 
-#wrapper{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-}
-
 .card {
     color: var(--lm-principal-color);
     aspect-ratio: 1 / 1.6;

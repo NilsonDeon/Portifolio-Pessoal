@@ -17,9 +17,11 @@
 * imagem 🟧
 
 ## Skills
-* cards 🟧
+* cards 🟩
+* card image 🟧
 * card content 🟥
-* card animation 🟥
+* card animation 🟩
+
 
 ## Projetos
 * cards 🟧
@@ -28,10 +30,9 @@
 * pagina com descrição mais detalhada 🟥
 
 ## Contatos
-* Formulário de E-mail 🟥
-* Envio do Formulário 🟥
-* links redes sociais 🟥
-* Animação dos Links 🟥
+* Formulário de E-mail 🟩
+* Envio do Formulário 🟩
+* links redes sociais 🟩
 
 ## Adicionais
 * Dark Mode 🟥

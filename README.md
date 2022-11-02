@@ -12,6 +12,8 @@ Site pessoal para expor meus trabalhos e contar um pouco sobre mim.
 [Gerador de paleta de cores](https://huemint.com/)
 <br>
 [Wireframe](https://www.figma.com/)
+[Formulário de e-mail](https://formsubmit.co/)
+[Responsividade](https://search.google.com/test/mobile-friendly)
 
 # Progresso
 <!-- 🟥 🟧 🟩 -->

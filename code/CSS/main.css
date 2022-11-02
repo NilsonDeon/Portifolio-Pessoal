@@ -9,9 +9,10 @@
 @import url("layout/sobre.css");
 @import url("layout/skills.css");
 @import url("layout/projetos.css");
+@import url("layout/contatos.css");
 
 /* components */
-
+@import url("components/wrapper.css");
 
 /* pages */
 
