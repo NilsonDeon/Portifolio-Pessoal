@@ -18,6 +18,6 @@ Site pessoal para expor meus trabalhos e contar um pouco sobre mim.
 # Progresso
 <!-- 🟥 🟧 🟩 -->
 * [Fase Anteprojetual](MDs/Fase-Anteprojetual.md) 🟩
-* [Design](MDs/Design.md)🟩
-* [Programação](MDs/Programacao.md)🟥
+* [Design](MDs/Design.md) 🟩
+* [Programação](MDs/Programacao.md) 🟥
 * Debug | Publicação 🟥

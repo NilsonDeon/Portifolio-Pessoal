@@ -26,8 +26,6 @@
 
 - Devido a falta de tempo esse projeto não terá uma data de entrega, mas deve ser trabalhado no mínimo uma vez por mês
 
-# **pre-projeto e Inpirações:**
-
-<iframe src="https://miro.com/app/live-embed/uXjVPBUkAH0=/?moveToViewport=-565,-432,1250,832&embedId=61065765213" scrolling="no" allowfullscreen width="768" height="432" frameborder="0"></iframe>
+# **Inpirações:**
 
 [MoodBoard](https://www.behance.net/collection/199366503/MoodBoard)
