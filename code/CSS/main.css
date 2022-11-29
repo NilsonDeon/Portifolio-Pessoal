@@ -4,9 +4,12 @@
 
 /* Components */
 @import url("components/logo.css");
+@import url("components/btn.css");
 
 /* Layout */
 @import url("layout/header.css");
+@import url("layout/about.css");
+@import url("layout/skills.css");
 
 /* Utils */
 @import url("utils/variables.css");

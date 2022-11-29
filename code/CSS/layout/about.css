@@ -1,0 +1,23 @@
+.wrapper{
+    margin: 4rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+#picture{
+    max-width: 20rem;
+}
+
+#text{
+    max-width: 40rem;
+    margin-left: 5rem;
+}
+
+#type-animation{
+    color: var(--color-ligth_gray);
+    margin-left: 5rem;
+}
+
+#btn-cv{
+    margin: 5rem 0 0 5rem;
+}

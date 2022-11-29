@@ -1,0 +1,22 @@
+.container-skills{
+
+    margin: 4rem 0;
+}
+
+.container-skills ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-skills li{
+    width: 7rem;
+    margin: 1%;
+}
+
+.container-skills li:nth-child(5n){
+    margin-right: 0;
+}
+
+.container-skills li:nth-child(5n+1){
+    margin-left: 0;
+}
