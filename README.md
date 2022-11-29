@@ -12,12 +12,14 @@ Site pessoal para expor meus trabalhos e contar um pouco sobre mim.
 [Gerador de paleta de cores](https://huemint.com/)
 <br>
 [Wireframe](https://www.figma.com/)
+<br>
 [Formulário de e-mail](https://formsubmit.co/)
+<br>
 [Responsividade](https://search.google.com/test/mobile-friendly)
 
 # Progresso
 <!-- 🟥 🟧 🟩 -->
 * [Fase Anteprojetual](MDs/Fase-Anteprojetual.md) 🟩
 * [Design](MDs/Design.md) 🟩
-* [Programação](MDs/Programacao.md) 🟥
+* [Programação](MDs/Programacao.md) 🟧
 * Debug | Publicação 🟥
