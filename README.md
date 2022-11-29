@@ -19,5 +19,5 @@ Site pessoal para expor meus trabalhos e contar um pouco sobre mim.
 <!-- 🟥 🟧 🟩 -->
 * [Fase Anteprojetual](MDs/Fase-Anteprojetual.md) 🟩
 * [Design](MDs/Design.md) 🟩
-* [Programação](MDs/Programacao.md) 🟥
+* [Programação](MDs/Programacao.md) 🟧
 * Debug | Publicação 🟥
