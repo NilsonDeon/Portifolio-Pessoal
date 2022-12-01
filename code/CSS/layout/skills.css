@@ -13,10 +13,25 @@
     margin: 1%;
 }
 
-.container-skills li:nth-child(5n){
+.container-skills li:nth-child(6n){
     margin-right: 0;
 }
 
-.container-skills li:nth-child(5n+1){
+.container-skills li:nth-child(6n+1){
+    margin-left: 0;
+}
+
+#tag-conatiner{
+    display: flex;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#tag-conatiner button{
+    margin-left: 1%;
+}
+
+#tag-conatiner button:nth-child(5n+1){
     margin-left: 0;
 }

@@ -3,6 +3,7 @@
     color: var(--color-dark_blue);
     padding: 1rem 1.5rem;
     border-color: transparent;
+    border-radius: 1rem;
     font-family: var(--font-title);
     font-size: 1.2rem;
     cursor: pointer;
@@ -11,4 +12,32 @@
 
 .btn:hover{
     transform: scale(1.2);
+}
+
+.btn-tag{
+    background-color: var(--color-ligth_blue);
+    color: var(--color-dark_blue);
+    padding: 0.5rem 1rem;
+    border-color: transparent;
+    border-radius: 1rem;
+    font-family: var(--font-title);
+    cursor: pointer;
+}
+
+.btn-tag:hover{
+    background-color: var(--color-dark_pink);
+}
+
+.active{
+    background-color: var(--color-dark_pink);
+    cursor: default;
+}
+
+.disabled{
+    background-color: var(--color-ligth_gray);
+    cursor: default;
+}
+
+.disabled:hover{
+    background-color: var(--color-ligth_gray);
 }

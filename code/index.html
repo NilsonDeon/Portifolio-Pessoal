@@ -18,7 +18,7 @@
             <nav>
                 <ul id="links-nav">
                     <li><a href="#about">Sobre</a></li>
-                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
                     <li><a href="#certificates">Certificados</a></li>
                     <li><a href="#projects">Projetos</a></li>
                     <li><a href="#experience">Experiência</a></li>
@@ -40,7 +40,7 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eum cupiditate in recusandae quia quasi, explicabo sunt ducimus, incidunt aperiam repellat officiis natus, alias eveniet. Porro repellendus eos dolore provident.
                             Quos dicta itaque voluptatem nisi repudiandae in ad corporis dolorum.
                         </p>
-                        <button class="btn" id="btn-cv">Download CV</button>
+                        <button class="btn" id="btn-cv">Baixar Currículo</button>
                     </div>
                 </div>
 
@@ -48,14 +48,15 @@
             </section>
 
             <section id="skills">
-                <h2>Skills</h2>
+                <h2>Habilidades</h2>
                 
-                <select name="tags" id="tag-selector">
-                    <option value="0">Tudo</option>
-                    <option value="1">Programação</option>
-                    <option value="2">Front-end</option>
-                    <option value="3">Game Dev</option>
-                </select>
+                <div id="tag-conatiner">
+                    <button class="btn-tag active">Mostrar Tudo</button>
+                    <button class="btn-tag">Programação</button>
+                    <button class="btn-tag">Desenvolvimento de Sites</button>
+                    <button class="btn-tag disabled">Desenvolvimento de Jogos</button>
+                    <button class="btn-tag disabled">Gestão</button>
+                </div>
 
                 <div class="container-skills">
                     <ul>
@@ -64,12 +65,40 @@
                         <li><img src="https://picsum.photos/150/150" alt="Python-logo"></li>
                         <li><img src="https://picsum.photos/150/150" alt="HTML-logo"></li>
                         <li><img src="https://picsum.photos/150/150" alt="CSS-logo"></li>
+                        <li><img src="https://picsum.photos/150/150" alt="Kanban-logo"></li>
                     </ul>
                 </div>
             </section>
 
             <section id="certificates">
                 <h2>Certificados</h2>
+
+                <div class="carousel-container">
+
+                    <div class="slide-wrapper">
+                        <div class="slide-item">
+                            <img src="https://picsum.photos/250/150" alt="Certificado">
+                            <h3>Nome do Curso</h3>
+                        </div>
+                        <div class="slide-item">
+                            <img src="https://picsum.photos/250/150" alt="Certificado">
+                            <h3>Nome do Curso</h3>
+                        </div>
+                        <div class="slide-item">
+                            <img src="https://picsum.photos/250/150" alt="Certificado">
+                            <h3>Nome do Curso</h3>
+                        </div>
+                        <div class="slide-item">
+                            <img src="https://picsum.photos/250/150" alt="Certificado">
+                            <h3>Nome do Curso</h3>
+                        </div>
+                    </div>
+
+                    <div class="pagination"></div>
+                    <div class="btn-prev">&xlarr;</div>
+                    <div class="bnt-next">&xrarr;</div>
+                </div>
+                
             </section>
 
             <section id="projects">
