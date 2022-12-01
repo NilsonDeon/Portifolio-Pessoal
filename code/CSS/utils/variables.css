@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Wigners";
+    src: url("../../resources/font/Wigners-Friend.ttf");
+}
+
+@font-face {
+    font-family: "Argentum";
+    src: url("../../resources/font/ArgentumSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Salma";
+    src: url("../../resources/font/Salma-pro.otf");
+}
+
+:root{
+    --color-dark_blue:#142739;
+    --color-ligth_gray:#D9D9D9;
+    --color-ligth_blue:#AEE8DC;
+    --color-dark_pink:#CC4263;
+
+    --font-logo: Wigners, serif;
+    --font-title: Argentum, sans-serif;
+    --font-text: Salma, sans-serif;
+}
