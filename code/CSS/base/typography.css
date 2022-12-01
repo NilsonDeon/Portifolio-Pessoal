@@ -28,7 +28,3 @@ p{
     font-family: var(--font-text);
     color: var(--color-ligth_gray);
 }
-
-a{
-    font-family: var(--font-title);
-}
