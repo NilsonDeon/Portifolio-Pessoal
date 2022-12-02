@@ -6,8 +6,8 @@
         <meta name="viewport" content="width=device-width">
 
         <title>NilsonDeon_</title>
-        <link rel="stylesheet" href="CSS/main.css">
-
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     </head>
     <body>
         <header id="header">
@@ -51,21 +51,21 @@
                 <h2>Habilidades</h2>
                 
                 <div id="tag-conatiner">
-                    <button class="btn-tag active">Mostrar Tudo</button>
-                    <button class="btn-tag">Programação</button>
-                    <button class="btn-tag">Desenvolvimento de Sites</button>
+                    <button class="btn-tag active" onclick="filter('all')">Mostrar Tudo</button>
+                    <button class="btn-tag" onclick="filter('programming')">Programação</button>
+                    <button class="btn-tag" onclick="filter('web-dev')">Desenvolvimento de Sites</button>
                     <button class="btn-tag disabled">Desenvolvimento de Jogos</button>
                     <button class="btn-tag disabled">Gestão</button>
                 </div>
 
                 <div class="container-skills">
                     <ul>
-                        <li><img src="https://picsum.photos/150/150" alt="C-logo"></li>
-                        <li><img src="https://picsum.photos/150/150" alt="Java-logo"></li>
-                        <li><img src="https://picsum.photos/150/150" alt="Python-logo"></li>
-                        <li><img src="https://picsum.photos/150/150" alt="HTML-logo"></li>
-                        <li><img src="https://picsum.photos/150/150" alt="CSS-logo"></li>
-                        <li><img src="https://picsum.photos/150/150" alt="Kanban-logo"></li>
+                        <li class="skill programming"><img src="https://picsum.photos/150/150" alt="C-logo"></li>
+                        <li class="skill programming"><img src="https://picsum.photos/150/150" alt="Java-logo"></li>
+                        <li class="skill programming web-dev"><img src="https://picsum.photos/150/150" alt="Python-logo"></li>
+                        <li class="skill web-dev"><img src="https://picsum.photos/150/150" alt="HTML-logo"></li>
+                        <li class="skill web-dev"><img src="https://picsum.photos/150/150" alt="CSS-logo"></li>
+                        <li class="skill management"><img src="https://picsum.photos/150/150" alt="Kanban-logo"></li>
                     </ul>
                 </div>
             </section>
@@ -73,31 +73,27 @@
             <section id="certificates">
                 <h2>Certificados</h2>
 
-                <div class="carousel-container">
-
-                    <div class="slide-wrapper">
-                        <div class="slide-item">
-                            <img src="https://picsum.photos/250/150" alt="Certificado">
-                            <h3>Nome do Curso</h3>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="https://picsum.photos/300/150" alt="Java-logo">
+                            <span>Olá mundo</span>
                         </div>
-                        <div class="slide-item">
-                            <img src="https://picsum.photos/250/150" alt="Certificado">
-                            <h3>Nome do Curso</h3>
+                        <div class="swiper-slide">
+                            <img src="https://picsum.photos/301/150" alt="Java-logo">
+                            <span>Olá mundo</span>
                         </div>
-                        <div class="slide-item">
-                            <img src="https://picsum.photos/250/150" alt="Certificado">
-                            <h3>Nome do Curso</h3>
-                        </div>
-                        <div class="slide-item">
-                            <img src="https://picsum.photos/250/150" alt="Certificado">
-                            <h3>Nome do Curso</h3>
+                        <div class="swiper-slide">
+                            <img src="https://picsum.photos/302/150" alt="Java-logo">
+                            <span>Olá mundo</span>
                         </div>
                     </div>
 
-                    <div class="pagination"></div>
-                    <div class="btn-prev">&xlarr;</div>
-                    <div class="bnt-next">&xrarr;</div>
-                </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  </div>
+
                 
             </section>
 
@@ -113,5 +109,11 @@
                 <h2>Entre em Contato</h2>
             </section>
         </main>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+        <script src="JS/skills.js"></script>
+        <script src="JS/certificates.js"></script>
+
     </body>
 </html>

@@ -28,3 +28,13 @@ p{
     font-family: var(--font-text);
     color: var(--color-ligth_gray);
 }
+
+a{
+    font-family: var(--font-title);
+}
+
+span{
+    font-family: var(--font-title);
+    color: var(--color-dark_pink);
+    font-weight: bold;
+}

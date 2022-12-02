@@ -16,10 +16,8 @@ Site pessoal para expor meus trabalhos e contar um pouco sobre mim.
 [Formulário de e-mail](https://formsubmit.co/)
 <br>
 [Responsividade](https://search.google.com/test/mobile-friendly)
+<br>
+[Foto estilizada](https://www.astria.ai/)
+<br>
+[Carrossel](https://swiperjs.com/)
 
-# Progresso
-<!-- 🟥 🟧 🟩 -->
-* [Fase Anteprojetual](MDs/Fase-Anteprojetual.md) 🟩
-* [Design](MDs/Design.md) 🟩
-* [Programação](MDs/Programacao.md) 🟧
-* Debug | Publicação 🟥

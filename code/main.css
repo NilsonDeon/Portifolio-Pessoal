@@ -1,0 +1,16 @@
+/* Base */
+@import url("CSS/base/reset.css");
+@import url("CSS/base/typography.css");
+
+/* Components */
+@import url("CSS/components/logo.css");
+@import url("CSS/components/btn.css");
+
+/* Layout */
+@import url("CSS/layout/header.css");
+@import url("CSS/layout/about.css");
+@import url("CSS/layout/skills.css");
+@import url("CSS/layout/certificates.css");
+
+/* Utils */
+@import url("CSS/utils/variables.css");
