@@ -27,12 +27,12 @@
     display: flex;
     width: 20em;
     justify-content: space-between;
-    transition: transform ease-in-out 300ms;
+    transition: filter ease-in-out 300ms;
     cursor: pointer;
 }
 
 .swiper-slide:hover img {
-    transform: scale(1.2);
+    filter: blur(1.2rem);
 }
 
 .swiper-slide span{

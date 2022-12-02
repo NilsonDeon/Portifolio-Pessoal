@@ -11,6 +11,7 @@
 @import url("CSS/layout/about.css");
 @import url("CSS/layout/skills.css");
 @import url("CSS/layout/certificates.css");
+@import url("CSS/layout/projects.css");
 
 /* Utils */
 @import url("CSS/utils/variables.css");

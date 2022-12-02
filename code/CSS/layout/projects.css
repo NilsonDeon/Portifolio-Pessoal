@@ -1,0 +1,26 @@
+#mosaic{
+    margin-top: 4rem;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(5, .2fr);
+    grid-template-rows: repeat(2, .2fr);
+    cursor: pointer;
+}
+
+.tall{
+    grid-row: span 2;
+}
+
+.wide{
+    grid-column: span 2;
+}
+
+.project img{
+    height: 100%;
+    width: 100%;
+}
+
+.project:hover{
+    box-shadow: 5px 5px 5px black;
+    transform: scale(1.1);
+}
