@@ -1,32 +1,32 @@
 h1{
     font-size: 2.6rem;
     font-family: var(--font-title);
-    color: var(--color-dark_pink);
+    color: var(--color-highlight);
 }
 
 h2{
     font-size: 1.8rem;
     font-family: var(--font-title);
-    color: var(--color-dark_pink);
+    color: var(--color-highlight);
 }
 
 h3{
     font-size: 1.4rem;
     font-family: var(--font-title);
-    color: var(--color-dark_pink);
+    color: var(--color-text);
 }
 
 h4{
     font-size: 1rem;
     font-family: var(--font-title);
-    color: var(--color-dark_pink);
+    color: var(--color-highlight);
 }
 
 p{
     font-size: 1.2rem;
     letter-spacing: 0.02rem;
     font-family: var(--font-text);
-    color: var(--color-ligth_gray);
+    color: var(--color-text);
 }
 
 a{
@@ -35,6 +35,6 @@ a{
 
 span{
     font-family: var(--font-title);
-    color: var(--color-dark_pink);
+    color: var(--color-highlight);
     font-weight: bold;
 }

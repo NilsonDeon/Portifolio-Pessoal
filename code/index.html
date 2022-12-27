@@ -35,7 +35,7 @@
                     <img src="https://picsum.photos/150/200" alt="foto" id="picture">
 
                     <div>
-                        <h3 id="type-animation">Eu sou: Aluno</h3>
+                        <h3 id="type-animation">Eu sou: <span>Aluno</span></h3>
                         <p id="text">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eum cupiditate in recusandae quia quasi, explicabo sunt ducimus, incidunt aperiam repellat officiis natus, alias eveniet. Porro repellendus eos dolore provident.
                             Quos dicta itaque voluptatem nisi repudiandae in ad corporis dolorum.
@@ -51,11 +51,9 @@
                 <h2>Habilidades</h2>
                 
                 <div id="tag-conatiner">
-                    <button class="btn-tag active" onclick="filter('all')">Mostrar Tudo</button>
-                    <button class="btn-tag" onclick="filter('programming')">Programação</button>
-                    <button class="btn-tag" onclick="filter('web-dev')">Desenvolvimento de Sites</button>
-                    <button class="btn-tag disabled">Desenvolvimento de Jogos</button>
-                    <button class="btn-tag disabled">Gestão</button>
+                    <button class="btn-tag active" onclick="filter('all', this)">Mostrar Tudo</button>
+                    <button class="btn-tag" onclick="filter('programming', this)">Programação</button>
+                    <button class="btn-tag" onclick="filter('web-dev', this)">Desenvolvimento de Sites</button>
                 </div>
 
                 <div class="container-skills">
@@ -66,6 +64,15 @@
                         <li class="skill web-dev"><img src="https://picsum.photos/150/150" alt="HTML-logo"></li>
                         <li class="skill web-dev"><img src="https://picsum.photos/150/150" alt="CSS-logo"></li>
                         <li class="skill management"><img src="https://picsum.photos/150/150" alt="Kanban-logo"></li>
+                        <li class="skill management"><img src="https://picsum.photos/150/150" alt="Kanban-logo"></li>
+                        <li class="skill management"><img src="https://picsum.photos/150/150" alt="Kanban-logo"></li>
+                        <li class="skill programming web-dev"><img src="https://picsum.photos/150/150" alt="Python-logo"></li>
+                        <li class="skill programming web-dev"><img src="https://picsum.photos/150/150" alt="Python-logo"></li>
+                        <li class="skill management"><img src="https://picsum.photos/150/150" alt="Kanban-logo"></li>
+                        <li class="skill web-dev management"><img src="https://picsum.photos/150/150" alt="Kanban-logo"></li>
+                        <li class="skill management"><img src="https://picsum.photos/150/150" alt="Kanban-logo"></li>
+                        <li class="skill web-dev"><img src="https://picsum.photos/150/150" alt="Python-logo"></li>
+                        <li class="skill web-dev"><img src="https://picsum.photos/150/150" alt="Python-logo"></li>
                     </ul>
                 </div>
             </section>
@@ -76,15 +83,21 @@
                 <div class="swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="https://picsum.photos/300/150" alt="Java-logo">
+                            <a href="certificate.html">
+                                <img src="https://picsum.photos/300/150" alt="Java-logo">
+                            </a>
                             <span>Olá mundo</span>
                         </div>
                         <div class="swiper-slide">
-                            <img src="https://picsum.photos/301/150" alt="Java-logo">
+                            <a href="certificate.html">
+                                <img src="https://picsum.photos/300/150" alt="Java-logo">
+                            </a>
                             <span>Olá mundo</span>
                         </div>
                         <div class="swiper-slide">
-                            <img src="https://picsum.photos/302/150" alt="Java-logo">
+                            <a href="certificate.html">
+                                <img src="https://picsum.photos/300/150" alt="Java-logo">
+                            </a>
                             <span>Olá mundo</span>
                         </div>
                     </div>

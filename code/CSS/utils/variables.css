@@ -14,10 +14,14 @@
 }
 
 :root{
-    --color-dark_blue:#142739;
-    --color-ligth_gray:#D9D9D9;
-    --color-ligth_blue:#AEE8DC;
-    --color-dark_pink:#CC4263;
+    /* --color-principal:#1a1a24;
+    --color-text:#f5fbfa;
+    --color-clickable:#ED2939;
+    --color-titles:#FDA50F; */
+
+    --color-principal:#1C1B1D;
+    --color-text:#A69E8F;
+    --color-highlight:#A61C28;
 
     --font-logo: Wigners, serif;
     --font-title: Argentum, sans-serif;
