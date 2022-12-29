@@ -1,0 +1,45 @@
+#header a img{
+    height: 56px;
+    
+}
+
+.certified-title{
+    margin: 4rem 0;
+}
+
+.info-container {
+    margin: 4rem 0;
+    display:  grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.info{
+    margin-bottom: 1rem;
+    color: var(--color-highlight);
+}
+
+.content {
+    color: var(--color-text);
+    font-weight: normal;
+    font-size: medium;
+}
+
+.content-list{
+    list-style: inside;
+    font-family: var(--font-text);
+    color: var(--color-text);
+}
+
+.certified-text{
+    width: 95%;
+}
+
+.certified-text a{
+    color: var(--color-highlight);
+}
+
+.auth {
+    font-size: large;
+    font-size: bold;
+    background-color: var(--color-highlight);
+}
