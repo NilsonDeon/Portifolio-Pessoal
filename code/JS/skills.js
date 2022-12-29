@@ -1,11 +1,12 @@
 
-function filter(type) {
+function filter(type, btn) {
 
     var elements = document.getElementsByClassName('skill');
 
     for (let i = 0; i < elements.length; i++) {
 
-        console.log(elements[i].classList);
+        removeActive();
+        btn.classList.add('active')
 
         if(type == 'all'){
 
@@ -23,41 +24,17 @@ function filter(type) {
     
 }
 
-/* switch (type) {
-        case 'all':
-            
-           
+function removeActive(){
 
-            break;
-            
-        case 'programming':
-            for (let i = 0; i < elements.length; index++) {
+    var elements = document.querySelectorAll('.btn-tag');
 
-                if (type in elements[i].classList) {
-                    elements[i].style.display = "flex";
+    for (let i = 0; i < elements.length; i++) {
 
-                }else{
-                    elements[i].style.display = "none";
-                }
-            }
-            break;
+        if(elements[i].classList.contains('active')){
 
-        case 'web-dev':
-            for (let i = 0; i < elements.length; index++) {
-            
-                
-            }
-            break;
+            elements[i].classList.remove('active');
 
-        case 'game-dev':
-            for (let i = 0; i < elements.length; index++) {
-            
-            }
-            break;
+        }
+    }
 
-        case 'management':
-            for (let i = 0; i < elements.length; index++) {
-                
-            }
-            break;
-    } */
+}

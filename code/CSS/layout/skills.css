@@ -1,24 +1,17 @@
+#skills{
+    min-height: 544px;
+}
+
 .container-skills{
     margin: 4rem 0;
 }
 
 .container-skills ul{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(8, 0.5fr);
+    gap: 1rem;
 }
 
-.container-skills li{
-    width: 7rem;
-    margin: 1%;
-}
-
-.container-skills li:nth-child(6n){
-    margin-right: 0;
-}
-
-.container-skills li:nth-child(6n+1){
-    margin-left: 0;
-}
 
 #tag-conatiner{
     display: flex;

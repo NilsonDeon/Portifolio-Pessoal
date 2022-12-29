@@ -8,7 +8,6 @@
     text-align: center;
     font-size: 18px;
 
-    /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -24,15 +23,13 @@
 }
 
 .swiper-slide img {
-    display: flex;
     width: 20em;
-    justify-content: space-between;
-    transition: filter ease-in-out 300ms;
+    transition: transform ease-in-out 300ms;
     cursor: pointer;
 }
 
 .swiper-slide:hover img {
-    filter: blur(1.2rem);
+    transform: scale(1.1);
 }
 
 .swiper-slide span{
@@ -53,9 +50,9 @@
 }
 
 .swiper-button-next, .swiper-button-prev{
-    color: var(--color-ligth_blue) !important;
+    color: var(--color-highlight) !important;
 }
 
 .swiper-pagination-bullet-active {
-    background: var(--color-dark_pink,var(--color-ligth_gray)) !important ;
+    background: var(--color-highlight,var(--color-text)) !important ;
 }

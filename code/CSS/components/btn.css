@@ -1,6 +1,6 @@
 .btn{
-    background-color: var(--color-ligth_blue);
-    color: var(--color-dark_blue);
+    background-color: var(--color-highlight);
+    color: var(--color-principal);
     padding: 1rem 1.5rem;
     border-color: transparent;
     border-radius: 1rem;
@@ -15,8 +15,8 @@
 }
 
 .btn-tag{
-    background-color: var(--color-ligth_blue);
-    color: var(--color-dark_blue);
+    background-color: var(--color-highlight);
+    color: var(--color-principal);
     padding: 0.5rem 1rem;
     border-color: transparent;
     border-radius: 1rem;
@@ -25,19 +25,10 @@
 }
 
 .btn-tag:hover{
-    background-color: var(--color-dark_pink);
+    background-color: var(--color-text);
 }
 
 .active{
-    background-color: var(--color-dark_pink);
+    background-color: var(--color-text);
     cursor: default;
-}
-
-.disabled{
-    background-color: var(--color-ligth_gray);
-    cursor: default;
-}
-
-.disabled:hover{
-    background-color: var(--color-ligth_gray);
 }

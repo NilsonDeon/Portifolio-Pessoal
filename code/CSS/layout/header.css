@@ -16,11 +16,11 @@
 }
 
 #links-nav a{
-    color: var(--color-ligth_blue);
+    color: var(--color-highlight);
 }
 
 #links-nav a:hover{
-    color: var(--color-dark_pink);
+    color: var(--color-text);
 }
 
 @media(max-width: 768px) {
