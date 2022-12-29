@@ -8,7 +8,8 @@
 
 .container-skills ul{
     display: grid;
-    grid-template-columns: repeat(8, 0.5fr);
+    padding: 0;
+    grid-template-columns: repeat(8, 1fr);
     gap: 1rem;
 }
 
@@ -26,4 +27,38 @@
 
 #tag-conatiner button:nth-child(5n+1){
     margin-left: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .container-skills ul{
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: .3rem;
+        gap: .3rem;
+    }
+    .btn-tag{
+        width: 60%;
+        margin-bottom: 5px;
+    }
+
+    #tag-conatiner button{
+        margin-left: 0%;
+    }
+    
+    #tag-conatiner button:nth-child(5n+1){
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width:420px) {
+    .btn-tag{
+        width: 60%;
+        margin-bottom: 5px;
+    }
+
+    .container-skills ul{
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: .3rem;
+        gap: .3rem;
+    }
 }

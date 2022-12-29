@@ -21,7 +21,6 @@
                     <li><a href="#skills">Habilidades</a></li>
                     <li><a href="#certificates">Certificados</a></li>
                     <li><a href="#projects">Projetos</a></li>
-                    <li><a href="#experience">Experiência</a></li>
                     <li><a href="#contact">Contato</a></li>
                 </ul>
             </nav>
@@ -31,17 +30,18 @@
             <section id="about">
                 <h2>Sobre</h2>
 
-                <div class="wrapper">
+                <div class="about-container">
                     <img src="https://picsum.photos/150/200" alt="foto" id="picture">
 
-                    <div>
-                        <h3 id="type-animation">Eu sou: <span>Aluno</span></h3>
+
+                    <div class="wrapper-text">
                         <p id="text">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eum cupiditate in recusandae quia quasi, explicabo sunt ducimus, incidunt aperiam repellat officiis natus, alias eveniet. Porro repellendus eos dolore provident.
                             Quos dicta itaque voluptatem nisi repudiandae in ad corporis dolorum.
                         </p>
-                        <button class="btn" id="btn-cv">Baixar Currículo</button>
+                        <a href="resources/images/github.png" download="NilsonDeon_Curriculo" class="btn">Baixar Currículo</a>
                     </div>
+
                 </div>
 
                 
@@ -112,14 +112,55 @@
 
             <section id="projects">
                 <h2>Projetos</h2>
-            </section>
 
-            <section id="experience">
-                <h2>Experiência</h2>
+                <div class="mosaic-container">
+                    <div class="projects">
+                        <div class="project tall">
+                            <img src="https://picsum.photos/300/150" alt="">
+                        </div>
+                        <div class="project large">
+                            <img src="https://picsum.photos/300/150" alt="">
+                        </div>
+                        <div class="project tall">
+                            <img src="https://picsum.photos/300/150" alt="">
+                        </div>
+                        <div class="project small">
+                            <img src="https://picsum.photos/300/150" alt="">
+                        </div>
+                        <div class="project small">
+                            <img src="https://picsum.photos/300/150" alt="">
+                        </div>
+                        <div class="project small">
+                            <img src="https://picsum.photos/300/150" alt="">
+                        </div>
+                    </div>
+                </div>
+
             </section>
 
             <section id="contact">
                 <h2>Entre em Contato</h2>
+                
+                <div class="contact-container">
+
+                    <form class="email" action="https://formsubmit.co/nilsondeon01@gmail.com" method="POST">
+                        
+                        <div class="emails">
+                            <input class="inpt inpt-email" type="email" name="email" placeholder="Insira seu E-mail" required>
+                            <input class="inpt inpt-email" type="email" value="nilsondeon01@gmail.com" disabled>
+                        </div>
+                        <input class="inpt" type="text" name="subject" placeholder="Insira um assunto" required>
+                        <textarea class="inpt" name="body" type="text" cols="30" rows="10" placeholder="Insira um texto" required></textarea>
+                        <button class="btn btn-email" type="submit">Enviar</button>
+                    </form>
+
+                    <div class="social">
+                        <a href="https://github.com/NilsonDeon"><img src="resources/images/github.png" alt="github-logo"> Github</a>
+                        <a href="https://br.linkedin.com/in/nilson-deon-cordeiro-filho-a895a120b"><img src="resources/images/linkedin.png" alt="linkedin-logo"> Linked In</a>
+                    </div>
+
+                </div>
+
             </section>
         </main>
 
