@@ -10,10 +10,6 @@
     transition: transform ease-in-out 300ms;
 }
 
-.btn:hover{
-    transform: scale(1.2);
-}
-
 .btn-tag{
     background-color: var(--color-highlight);
     color: var(--color-principal);
@@ -24,7 +20,7 @@
     cursor: pointer;
 }
 
-.btn-tag:hover{
+.btn:hover, .btn-tag:hover{
     background-color: var(--color-text);
 }
 
